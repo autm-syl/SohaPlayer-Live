@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1991FE664E7CA0D5B743133BAAC4E687 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DD8BE1F9987707840BA24B6B9F578 /* ReplaceMe.m */; };
+		1B1182D6674588D21FBC2530E8ED7437 /* Pods-SohaPlayer-Live_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5B16E56386F96F356486CC7691D73D /* Pods-SohaPlayer-Live_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C98908C04C01329E6FEA98E5518B68A /* SohaPlayer-Live-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC661F80A9709185C0379A9B847E34A /* SohaPlayer-Live-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AE6100A52AA1C9C1D8E8B575A25CE0 /* SohaPlayer-Live-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A564C9ACB0D66BF279514913D5D376 /* SohaPlayer-Live-dummy.m */; };
+		6171392218C78F126142F877F1AA6E88 /* Pods-SohaPlayer-Live_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3D3D728430223E50600AB5CA1BFD6 /* Pods-SohaPlayer-Live_Tests-dummy.m */; };
+		7FAF1A44342DF0B1A46310B1EFF07334 /* Pods-SohaPlayer-Live_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAF6293C732C04F63C982316732B73E /* Pods-SohaPlayer-Live_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A546F4ED8A7D02D37FE9B738D7EF8557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CA08A57848593F120E18A3A63E8C4009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CF4665DA221D26B80B6BD1BBA0C93200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D5D23D3AB9BBE18F4A60067FB518A162 /* Pods-SohaPlayer-Live_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF67369EBFC3901779FDEA8DDD5143B3 /* Pods-SohaPlayer-Live_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F27718B5C3C668A804E87CD7EBB3DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1FFF5371ECC2B6A1682850940318CC;
+			remoteInfo = "SohaPlayer-Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC661F80A9709185C0379A9B847E34A /* SohaPlayer-Live-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SohaPlayer-Live-umbrella.h"; sourceTree = "<group>"; };
+		14C1E2A0DE75B5D349C486356FF94FB4 /* SohaPlayer-Live.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SohaPlayer-Live.modulemap"; sourceTree = "<group>"; };
+		1B1DD8BE1F9987707840BA24B6B9F578 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		22A564C9ACB0D66BF279514913D5D376 /* SohaPlayer-Live-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SohaPlayer-Live-dummy.m"; sourceTree = "<group>"; };
+		2B8435CD8F7DBB5A8E95C91D104C47DD /* Pods-SohaPlayer-Live_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SohaPlayer-Live_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BB3D3D728430223E50600AB5CA1BFD6 /* Pods-SohaPlayer-Live_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SohaPlayer-Live_Tests-dummy.m"; sourceTree = "<group>"; };
+		37239DF2DF094673E0C81D4DFC49904F /* Pods-SohaPlayer-Live_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SohaPlayer-Live_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44FE3BF128FE46775208D54D6F92540C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5B16E56386F96F356486CC7691D73D /* Pods-SohaPlayer-Live_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SohaPlayer-Live_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C9F9049883C614BD118C5CE6DC15C25 /* Pods_SohaPlayer_Live_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SohaPlayer_Live_Tests.framework; path = "Pods-SohaPlayer-Live_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5196D371AC7933F7517933FD11B2852F /* Pods-SohaPlayer-Live_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SohaPlayer-Live_Example-frameworks.sh"; sourceTree = "<group>"; };
+		619A3549D68CF2A59CBE45383078D56E /* Pods-SohaPlayer-Live_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SohaPlayer-Live_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		65C460846612B68B5AF0C39BC5C689E8 /* Pods-SohaPlayer-Live_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SohaPlayer-Live_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69948A847395523442D4B7A53D82FBCA /* SohaPlayer_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SohaPlayer_Live.framework; path = "SohaPlayer-Live.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D39917C091878D77A45222172E4CD36 /* SohaPlayer-Live-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SohaPlayer-Live-prefix.pch"; sourceTree = "<group>"; };
+		6E56DA9F00DB99478402801724343A12 /* Pods-SohaPlayer-Live_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SohaPlayer-Live_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97EB464917C9BE9CFC840FD7C103AABE /* Pods_SohaPlayer_Live_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SohaPlayer_Live_Example.framework; path = "Pods-SohaPlayer-Live_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA9623CBA460C714FE0C058ADBC9F23 /* Pods-SohaPlayer-Live_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SohaPlayer-Live_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0FA5F4C5514AB6A5ACE40444F35FB19 /* Pods-SohaPlayer-Live_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SohaPlayer-Live_Example.modulemap"; sourceTree = "<group>"; };
+		B8FFCF0ABCB1092BC4C7A382507DC2A8 /* SohaPlayer-Live.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SohaPlayer-Live.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D102E334CEB3E56650ED2D2E46793966 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CF191F469F0A8B39775EDB04EB8AE3 /* Pods-SohaPlayer-Live_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SohaPlayer-Live_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA9C5A491275F37ADED712FA4A693C32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAF6293C732C04F63C982316732B73E /* Pods-SohaPlayer-Live_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SohaPlayer-Live_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5CCA4ACF1B619822EAEC1E6C25A4070 /* Pods-SohaPlayer-Live_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SohaPlayer-Live_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBDEDF19F63D8F9EECC28671E6E30028 /* Pods-SohaPlayer-Live_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SohaPlayer-Live_Example-resources.sh"; sourceTree = "<group>"; };
+		F05CCB198A339204736092474CA8BCEA /* Pods-SohaPlayer-Live_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SohaPlayer-Live_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0868DC799A04A62BC8006CFA5A9EF94 /* Pods-SohaPlayer-Live_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SohaPlayer-Live_Tests-resources.sh"; sourceTree = "<group>"; };
+		F78AA1D31DFD502746E3536CE632DE63 /* Pods-SohaPlayer-Live_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SohaPlayer-Live_Tests.modulemap"; sourceTree = "<group>"; };
+		FF67369EBFC3901779FDEA8DDD5143B3 /* Pods-SohaPlayer-Live_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SohaPlayer-Live_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3317152A70B263050F3D41559FB0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A546F4ED8A7D02D37FE9B738D7EF8557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B265970398BBA7CEEC41389052BD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4665DA221D26B80B6BD1BBA0C93200 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC09BF9E7295ED8CE5ADE6ED96B9B7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA08A57848593F120E18A3A63E8C4009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52608E9B9851AA9830027C0BAA72FBC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3D0D29E780CB340A30649590D43C636 /* Pods-SohaPlayer-Live_Example */,
+				EF86F7A6953BF8F1D3E80E117F3159C8 /* Pods-SohaPlayer-Live_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB41E92C1401E67E49C19D187A05A9BD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8DC6BC7856D7082123BEB2EDFC144440 /* Products */,
+				52608E9B9851AA9830027C0BAA72FBC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0088645FF8726D81A120E29CBD68E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D102E334CEB3E56650ED2D2E46793966 /* Info.plist */,
+				14C1E2A0DE75B5D349C486356FF94FB4 /* SohaPlayer-Live.modulemap */,
+				B8FFCF0ABCB1092BC4C7A382507DC2A8 /* SohaPlayer-Live.xcconfig */,
+				22A564C9ACB0D66BF279514913D5D376 /* SohaPlayer-Live-dummy.m */,
+				6D39917C091878D77A45222172E4CD36 /* SohaPlayer-Live-prefix.pch */,
+				0DC661F80A9709185C0379A9B847E34A /* SohaPlayer-Live-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SohaPlayer-Live";
+			sourceTree = "<group>";
+		};
+		8DC6BC7856D7082123BEB2EDFC144440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EB464917C9BE9CFC840FD7C103AABE /* Pods_SohaPlayer_Live_Example.framework */,
+				4C9F9049883C614BD118C5CE6DC15C25 /* Pods_SohaPlayer_Live_Tests.framework */,
+				69948A847395523442D4B7A53D82FBCA /* SohaPlayer_Live.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9060AB442B524A421E77A3E866D01634 /* SohaPlayer-Live */ = {
+			isa = PBXGroup;
+			children = (
+				C28E694AD7FAEB2B69D13CF88647B9EB /* Classes */,
+			);
+			name = "SohaPlayer-Live";
+			path = "SohaPlayer-Live";
+			sourceTree = "<group>";
+		};
+		B09DA7511CF6198865AB67BE4F99A22C /* SohaPlayer-Live */ = {
+			isa = PBXGroup;
+			children = (
+				9060AB442B524A421E77A3E866D01634 /* SohaPlayer-Live */,
+				8B0088645FF8726D81A120E29CBD68E5 /* Support Files */,
+			);
+			name = "SohaPlayer-Live";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28E694AD7FAEB2B69D13CF88647B9EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B1DD8BE1F9987707840BA24B6B9F578 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB41E92C1401E67E49C19D187A05A9BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B09DA7511CF6198865AB67BE4F99A22C /* SohaPlayer-Live */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E3D0D29E780CB340A30649590D43C636 /* Pods-SohaPlayer-Live_Example */ = {
+			isa = PBXGroup;
+			children = (
+				44FE3BF128FE46775208D54D6F92540C /* Info.plist */,
+				B0FA5F4C5514AB6A5ACE40444F35FB19 /* Pods-SohaPlayer-Live_Example.modulemap */,
+				E5CCA4ACF1B619822EAEC1E6C25A4070 /* Pods-SohaPlayer-Live_Example-acknowledgements.markdown */,
+				6E56DA9F00DB99478402801724343A12 /* Pods-SohaPlayer-Live_Example-acknowledgements.plist */,
+				FF67369EBFC3901779FDEA8DDD5143B3 /* Pods-SohaPlayer-Live_Example-dummy.m */,
+				5196D371AC7933F7517933FD11B2852F /* Pods-SohaPlayer-Live_Example-frameworks.sh */,
+				EBDEDF19F63D8F9EECC28671E6E30028 /* Pods-SohaPlayer-Live_Example-resources.sh */,
+				DCAF6293C732C04F63C982316732B73E /* Pods-SohaPlayer-Live_Example-umbrella.h */,
+				F05CCB198A339204736092474CA8BCEA /* Pods-SohaPlayer-Live_Example.debug.xcconfig */,
+				D8CF191F469F0A8B39775EDB04EB8AE3 /* Pods-SohaPlayer-Live_Example.release.xcconfig */,
+			);
+			name = "Pods-SohaPlayer-Live_Example";
+			path = "Target Support Files/Pods-SohaPlayer-Live_Example";
+			sourceTree = "<group>";
+		};
+		EF86F7A6953BF8F1D3E80E117F3159C8 /* Pods-SohaPlayer-Live_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C5A491275F37ADED712FA4A693C32 /* Info.plist */,
+				F78AA1D31DFD502746E3536CE632DE63 /* Pods-SohaPlayer-Live_Tests.modulemap */,
+				2B8435CD8F7DBB5A8E95C91D104C47DD /* Pods-SohaPlayer-Live_Tests-acknowledgements.markdown */,
+				37239DF2DF094673E0C81D4DFC49904F /* Pods-SohaPlayer-Live_Tests-acknowledgements.plist */,
+				2BB3D3D728430223E50600AB5CA1BFD6 /* Pods-SohaPlayer-Live_Tests-dummy.m */,
+				619A3549D68CF2A59CBE45383078D56E /* Pods-SohaPlayer-Live_Tests-frameworks.sh */,
+				F0868DC799A04A62BC8006CFA5A9EF94 /* Pods-SohaPlayer-Live_Tests-resources.sh */,
+				4A5B16E56386F96F356486CC7691D73D /* Pods-SohaPlayer-Live_Tests-umbrella.h */,
+				AEA9623CBA460C714FE0C058ADBC9F23 /* Pods-SohaPlayer-Live_Tests.debug.xcconfig */,
+				65C460846612B68B5AF0C39BC5C689E8 /* Pods-SohaPlayer-Live_Tests.release.xcconfig */,
+			);
+			name = "Pods-SohaPlayer-Live_Tests";
+			path = "Target Support Files/Pods-SohaPlayer-Live_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23BA57DFE767D397713047A782F5E355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C98908C04C01329E6FEA98E5518B68A /* SohaPlayer-Live-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3277F19734BD0AF086ED377B47549A6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1182D6674588D21FBC2530E8ED7437 /* Pods-SohaPlayer-Live_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11FA1C3F708152E5143BC97E60C99D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAF1A44342DF0B1A46310B1EFF07334 /* Pods-SohaPlayer-Live_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C61C77A628514D37139B0462869FB58 /* Pods-SohaPlayer-Live_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205A3A53EFD32C3E42DAAD23E89ADA39 /* Build configuration list for PBXNativeTarget "Pods-SohaPlayer-Live_Tests" */;
+			buildPhases = (
+				32BD369A3FD1C4F0700DBDF84A7A4D18 /* Sources */,
+				95B265970398BBA7CEEC41389052BD32 /* Frameworks */,
+				3277F19734BD0AF086ED377B47549A6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SohaPlayer-Live_Tests";
+			productName = "Pods-SohaPlayer-Live_Tests";
+			productReference = 4C9F9049883C614BD118C5CE6DC15C25 /* Pods_SohaPlayer_Live_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		309C28899B0B7C7A253AC0B3076E1EAE /* Pods-SohaPlayer-Live_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AD5BA73F4796FDC245A6F6D33379C5 /* Build configuration list for PBXNativeTarget "Pods-SohaPlayer-Live_Example" */;
+			buildPhases = (
+				49B02C0E19F356201A7923A5F1EC624B /* Sources */,
+				4F3317152A70B263050F3D41559FB0ED /* Frameworks */,
+				F11FA1C3F708152E5143BC97E60C99D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11D5BA1B5DD691CC973E480BFB308E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SohaPlayer-Live_Example";
+			productName = "Pods-SohaPlayer-Live_Example";
+			productReference = 97EB464917C9BE9CFC840FD7C103AABE /* Pods_SohaPlayer_Live_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB1FFF5371ECC2B6A1682850940318CC /* SohaPlayer-Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8731753CB839F26D9277FC75DEBADB2 /* Build configuration list for PBXNativeTarget "SohaPlayer-Live" */;
+			buildPhases = (
+				3A978D82112EE66CA3D922A8DBF09013 /* Sources */,
+				FC09BF9E7295ED8CE5ADE6ED96B9B7E4 /* Frameworks */,
+				23BA57DFE767D397713047A782F5E355 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SohaPlayer-Live";
+			productName = "SohaPlayer-Live";
+			productReference = 69948A847395523442D4B7A53D82FBCA /* SohaPlayer_Live.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8DC6BC7856D7082123BEB2EDFC144440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309C28899B0B7C7A253AC0B3076E1EAE /* Pods-SohaPlayer-Live_Example */,
+				2C61C77A628514D37139B0462869FB58 /* Pods-SohaPlayer-Live_Tests */,
+				FB1FFF5371ECC2B6A1682850940318CC /* SohaPlayer-Live */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BD369A3FD1C4F0700DBDF84A7A4D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6171392218C78F126142F877F1AA6E88 /* Pods-SohaPlayer-Live_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A978D82112EE66CA3D922A8DBF09013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1991FE664E7CA0D5B743133BAAC4E687 /* ReplaceMe.m in Sources */,
+				56AE6100A52AA1C9C1D8E8B575A25CE0 /* SohaPlayer-Live-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B02C0E19F356201A7923A5F1EC624B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D23D3AB9BBE18F4A60067FB518A162 /* Pods-SohaPlayer-Live_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11D5BA1B5DD691CC973E480BFB308E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SohaPlayer-Live";
+			target = FB1FFF5371ECC2B6A1682850940318CC /* SohaPlayer-Live */;
+			targetProxy = 4F27718B5C3C668A804E87CD7EBB3DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CD30F2B03DD24FABFB924FC3B581C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C460846612B68B5AF0C39BC5C689E8 /* Pods-SohaPlayer-Live_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SohaPlayer-Live_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SohaPlayer-Live_Tests/Pods-SohaPlayer-Live_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SohaPlayer_Live_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BF0C3D0C99122B59F643CBF2A091BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05CCB198A339204736092474CA8BCEA /* Pods-SohaPlayer-Live_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SohaPlayer-Live_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SohaPlayer-Live_Example/Pods-SohaPlayer-Live_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SohaPlayer_Live_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BECDC4B2E298112800B58CD90DFAB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CF191F469F0A8B39775EDB04EB8AE3 /* Pods-SohaPlayer-Live_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SohaPlayer-Live_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SohaPlayer-Live_Example/Pods-SohaPlayer-Live_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SohaPlayer_Live_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C28F8EDDA5ADC5F18E12369CA496D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FFCF0ABCB1092BC4C7A382507DC2A8 /* SohaPlayer-Live.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SohaPlayer-Live/SohaPlayer-Live-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SohaPlayer-Live/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SohaPlayer-Live/SohaPlayer-Live.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SohaPlayer_Live;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7D37C7ABEA6F5E2711D81AD31F87AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA9623CBA460C714FE0C058ADBC9F23 /* Pods-SohaPlayer-Live_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SohaPlayer-Live_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SohaPlayer-Live_Tests/Pods-SohaPlayer-Live_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SohaPlayer_Live_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E473B7D7D29AB5022C4C12ADC3965143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FFCF0ABCB1092BC4C7A382507DC2A8 /* SohaPlayer-Live.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SohaPlayer-Live/SohaPlayer-Live-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SohaPlayer-Live/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SohaPlayer-Live/SohaPlayer-Live.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SohaPlayer_Live;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205A3A53EFD32C3E42DAAD23E89ADA39 /* Build configuration list for PBXNativeTarget "Pods-SohaPlayer-Live_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D37C7ABEA6F5E2711D81AD31F87AC7 /* Debug */,
+				2CD30F2B03DD24FABFB924FC3B581C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AD5BA73F4796FDC245A6F6D33379C5 /* Build configuration list for PBXNativeTarget "Pods-SohaPlayer-Live_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF0C3D0C99122B59F643CBF2A091BB1 /* Debug */,
+				6BECDC4B2E298112800B58CD90DFAB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8731753CB839F26D9277FC75DEBADB2 /* Build configuration list for PBXNativeTarget "SohaPlayer-Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C28F8EDDA5ADC5F18E12369CA496D16 /* Debug */,
+				E473B7D7D29AB5022C4C12ADC3965143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

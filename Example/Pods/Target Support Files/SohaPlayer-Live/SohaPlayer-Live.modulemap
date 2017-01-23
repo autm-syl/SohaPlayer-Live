@@ -1,0 +1,6 @@
+framework module SohaPlayer_Live {
+  umbrella header "SohaPlayer-Live-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SohaPlayer-Live",
+  "version": "0.1.0",
+  "summary": "A short description of SohaPlayer-Live.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SohaPlayer-Live",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lecuong": "cuongleviet@vccorp.vn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SohaPlayer-Live.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SohaPlayer-Live/Classes/**/*"
+}
